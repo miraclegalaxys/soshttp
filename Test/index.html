@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>ESP LED Control</title>
+    <script>
+      function toggleLED(state) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "/" + state, true);
+        xhr.send();
+      }
+    </script>
+  </head>
+  <body>
+    <h1>ESP LED Control</h1>
+    <button onclick="toggleLED('on')">Turn On</button>
+    <button onclick="toggleLED('off')">Turn Off</button>
+  </body>
+</html>

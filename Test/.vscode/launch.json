@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/miracle/CPE/cpe_241/Project241/Test",
+      "program": "/Users/miracle/CPE/cpe_241/Project241/Test/build/Debug/outDebug"
+    }
+  ]
+}
